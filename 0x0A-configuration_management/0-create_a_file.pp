@@ -1,6 +1,6 @@
 # Create a file
 
-file { '/tmp/holberton':
+file { '/tmp/school':
   ensure  => 'present',
   replace => 'no',
   group   => 'www-data',
